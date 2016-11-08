@@ -1,14 +1,23 @@
 @import "bootstrap";
 
 
-.navbar-inverse {
-  background: black !important;
-}
+/*  GENERAL STYLES  */
 
 body {
   padding-top: 20px;
 }
 
+/*  NAV STYLES  */
+
+.navbar-inverse {
+  background: black !important;
+}
+
+.nav-right {
+  display: inline-block;
+}
+
+/*  PAGE STYLES  */
 
 .background-cendor-sell-hero {
   background: url(https://d3rlqa3rnk4r1f.cloudfront.net/assets/images/vendor-sell/vendor-sell-hero-dc63a1bfd46b6a90dee7b3481edc90ac.jpg) fixed cover;
