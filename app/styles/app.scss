@@ -3,19 +3,44 @@
 
 /*  GENERAL STYLES  */
 
-body {
-  padding-top: 20px;
-}
 
 /*  NAV STYLES  */
 
 .navbar-inverse {
-  background: black !important;
+
+  .dropdown-menu > .active > a,
+  .dropdown-menu > .active > a:hover,
+  .dropdown-menu > .active > a:focus {
+    color: #63a0d4;
+  }
 }
 
-.nav-right {
-  display: inline-block;
+.dropdown-menu,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.navbar-inverse {
+  background-color: black;
 }
+
+.navbar-right {
+
+  .dropdown-menu {
+    border-radius: 0;
+    right: -15px;
+
+    li {
+
+      a {
+        color: #337ab7;
+        font-weight: 600;
+        padding: 15px 30px;
+      }
+    }
+  }
+}
+
+
 
 /*  PAGE STYLES  */
 
