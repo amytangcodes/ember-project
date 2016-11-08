@@ -21,6 +21,14 @@ img {
   .dropdown-menu > .active > a:focus {
     color: #63a0d4;
   }
+
+  .navbar-nav {
+    li {
+        a {
+        color: #337ab7;
+      }
+    }
+  }
 }
 
 .dropdown-menu,
@@ -30,7 +38,6 @@ img {
 .navbar-inverse {
   background-color: black;
 }
-
 .navbar-right {
 
   .dropdown-menu {
@@ -45,6 +52,10 @@ img {
         padding: 15px 30px;
       }
     }
+  }
+
+  @media (max-width: 768px) {
+    display: none;
   }
 }
 
@@ -82,6 +93,13 @@ img {
 
   .bottom-bar {
     transform: rotate(0);
+  }
+}
+
+.navbar-mobile {
+
+  @media (min-width: 768px) {
+    display: none;
   }
 }
 

@@ -15,6 +15,11 @@
         {{#link-to 'publishers' tagName="li"}}<a href="">Publishers</a>{{/link-to}}
         {{#link-to 'about' tagName="li"}}<a href="">About</a>{{/link-to}}
       </ul>
+      <ul class="nav navbar-nav navbar-mobile">
+        {{#nav-link-to 'index'}}Home{{/nav-link-to}}
+        {{#nav-link-to 'publishers'}}Publishers{{/nav-link-to}}
+        {{#nav-link-to 'about'}}About{{/nav-link-to}}
+      </ul>
 
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
@@ -27,6 +32,6 @@
           </ul>
         </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>
