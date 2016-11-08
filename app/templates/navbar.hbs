@@ -1,12 +1,17 @@
 <nav class="navbar-inverse">
-  <div class="collapse navbar-collapse" id="main-navbar">
+  <div class="collapse navbar-collapse nav-left" id="main-navbar">
     <ul class="nav navbar-nav text-uppercase">
       {{#link-to 'index' tagName="li"}}<a href="">Home</a>{{/link-to}}
       {{#link-to 'publishers' tagName="li"}}<a href="">Publishers</a>{{/link-to}}
       {{#link-to 'about' tagName="li"}}<a href="">About</a>{{/link-to}}
     </ul>
   </div>
-  <div class="navbar-header">
+  <div class="nav-right">
+    <ul>
+      {{#link-to 'index' tagName="li"}}<a href="">Home</a>{{/link-to}}
+      {{#link-to 'publishers' tagName="li"}}<a href="">Publishers</a>{{/link-to}}
+      {{#link-to 'about' tagName="li"}}<a href="">About</a>{{/link-to}}
+    </ul>
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
